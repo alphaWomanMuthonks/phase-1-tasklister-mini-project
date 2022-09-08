@@ -17,13 +17,13 @@
 //   p.appendChild(btn)
 
   
-}
-function removeTask(e) {
-      if (e.target.nodeName === 'btn') {
-        if(confirm('Are you sure?')) {
-          let p = e.target.parentElement;
-          taskList.removeChild(p);
-        }
+// }
+// function removeTask(e) {
+//       if (e.target.nodeName === 'btn') {
+//         if(confirm('Are you sure?')) {
+//           let p = e.target.parentElement;
+//           taskList.removeChild(p);
+//         }
  document.addEventListener("DOMContentLoaded", () => {
 
 const newTaskDescription = document.getElementById('new-task-description').value;
